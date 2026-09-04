@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "type": [
+    "VerifiableCredential",
+    "IhifixTrainingCredential"
+  ],
+  "issuer": "did:key:z6MkfQD3v5tc6sgLHaXTcMxGpKdJz4J2NEb9h41ACC3qHfiQ",
+  "audience": "REPLACE_WITH_VERIFIER_SERVICE_DID_OR_URL",
+  "issuanceDate": "2026-09-04T11:11:59.099Z",
+  "credentialStatus": {
+    "status": "active"
+  },
+  "credentialSubject": {
+    "id": "did:key:zSUBJECT_PLACEHOLDER",
+    "course": "tampered-course",
+    "cohort": "ihifix-2026-cohort-2",
+    "status": "active"
+  },
+  "proof": {
+    "type": "Ed25519Signature2020",
+    "created": "2026-09-04T11:11:59.242Z",
+    "verificationMethod": "did:key:z6MkfQD3v5tc6sgLHaXTcMxGpKdJz4J2NEb9h41ACC3qHfiQ",
+    "signatureValue": "9ca52d20079788c4c6a7c7fa6c26db7af59dc994e8739b605d2ca2e785931f9193910ba4e9a42b1ecfe82e735c0d05b48be384c788c17c2386960bfa353d8800"
+  }
+}

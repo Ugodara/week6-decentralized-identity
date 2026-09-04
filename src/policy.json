@@ -1,0 +1,17 @@
+{
+  "endpoint": "/training-access",
+  "acceptedIssuer": "did:key:z6MkfQD3v5tc6sgLHaXTcMxGpKdJz4J2NEb9h41ACC3qHfiQ",
+  "acceptedType": "IhifixTrainingCredential",
+  "requiredStatus": "active",
+  "requiredClaims": ["course", "cohort", "status"],
+  "allowedActions": ["read-training-lab"],
+  "requireAudience": true,
+  "audience": "REPLACE_WITH_VERIFIER_SERVICE_DID_OR_URL",
+  "maxCredentialAgeSeconds": 3600,
+  "failClosed": true,
+  "logging": {
+    "includePrivateKeys": false,
+    "includeRawSecrets": false,
+    "includeUnnecessaryPersonalData": false
+  }
+}
